@@ -458,8 +458,8 @@ export default {
       ru: 'и'
     },
     'ph49': {
-      en: 'Попробуйте накрутить счетчик и переключить язык:',
-      ru: 'Try to increment the counter below and then change the language:'
+      ru: 'Попробуйте накрутить счетчик и переключить язык:',
+      en: 'Try to increment the counter below and then change the language:'
     }
 
   }

@@ -8,7 +8,8 @@ Vue.use(VueRouter)
 export var router = new VueRouter({ //                          Create vue-router instance
   linkActiveClass: 'active',
   history: true,
-  saveScrollPosition: true
+  saveScrollPosition: true,
+  root: '/vue-localize-example/dist'
 })
 
 import routes from './config/routes' //                         Import router config obejct
