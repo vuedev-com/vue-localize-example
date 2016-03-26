@@ -1,0 +1,1010 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"get",
+				"getFromLocalStorage"
+			],
+			[
+				"defaul",
+				"defaultLanguage"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"curren",
+				"currentLanguage"
+			],
+			[
+				"vueLocalize",
+				"vueLocalizeVuexStoreModule"
+			],
+			[
+				"route",
+				"routesComponents"
+			],
+			[
+				"comp",
+				"component"
+			],
+			[
+				"vueLo",
+				"vueLocalizeId"
+			],
+			[
+				"Accou",
+				"AccountLayout"
+			],
+			[
+				"curre",
+				"currentTitle"
+			],
+			[
+				"isAut",
+				"isAuthenticated"
+			],
+			[
+				"localize",
+				"localizeRoutes"
+			],
+			[
+				"ne",
+				"newPath"
+			],
+			[
+				"rou",
+				"routesMap"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"current",
+				"_currentLanguage"
+			],
+			[
+				"langu",
+				"languages"
+			],
+			[
+				"lan",
+				"langConfig"
+			],
+			[
+				"com",
+				"component"
+			],
+			[
+				"compo",
+				"components"
+			],
+			[
+				"sub",
+				"subroutesLocalized"
+			],
+			[
+				"c",
+				"config"
+			],
+			[
+				"rout",
+				"routes"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"Ста",
+				"страница"
+			],
+			[
+				"vuex",
+				"vuexStoreModuleName"
+			],
+			[
+				"local",
+				"localStorage"
+			],
+			[
+				"langua",
+				"languageCurrent"
+			],
+			[
+				"tran",
+				"translation"
+			],
+			[
+				"pa",
+				"pathParts"
+			],
+			[
+				"tr",
+				"translation"
+			],
+			[
+				"tra",
+				"translation"
+			],
+			[
+				"is",
+				"isFallbackTranslation"
+			],
+			[
+				"la",
+				"languageCurrent"
+			],
+			[
+				"sr",
+				"script	Tag"
+			],
+			[
+				"loca",
+				"localStorage"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"p",
+				"pageTitle"
+			],
+			[
+				"CompA",
+				"CompApp"
+			],
+			[
+				"load",
+				"loadProjects"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/main.js",
+			"settings":
+			{
+				"buffer_size": 1776,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/public/pages/Index.vue",
+			"settings":
+			{
+				"buffer_size": 768,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/public/layout/Header.vue",
+			"settings":
+			{
+				"buffer_size": 848,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/public/pages/Features.vue",
+			"settings":
+			{
+				"buffer_size": 10899,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/public/layout/Layout.vue",
+			"settings":
+			{
+				"buffer_size": 365,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/common/LanguageSelector.vue",
+			"settings":
+			{
+				"buffer_size": 1230,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 23 files for \"translateRoutePath\"\n\n/var/www/html/hosts/SPA/vue-localize-example/src/components/public/pages/Features.vue:\n   74       <h3>Перевод адреса текущего роута на другой язык</h3>\n   75       Однако иногда надо получить адрес текущего роута для другого языка. Например, в селекторе языков.\n   76:      Для этого существует в плагине VueLocalize существует глобальная функция <code>$translateRoutePath()</code><br /><br />\n   77       Подробное описание можно найти в документации на гитхабе.\n   78  \n\n1 match in 1 file\n\n\nSearching 23 files for \"translateRoutePath\"\n\n0 matches",
+			"settings":
+			{
+				"buffer_size": 593,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "src/config/vue-localize-conf.js",
+			"settings":
+			{
+				"buffer_size": 3315,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/config/routes.js",
+			"settings":
+			{
+				"buffer_size": 1463,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/config/vue-localize-translations.js",
+			"settings":
+			{
+				"buffer_size": 12151,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"",
+				"Preferences: Settings - Default"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 398.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/hosts/SPA/vue-localize-example",
+		"/var/www/html/hosts/SPA/vue-localize-example/src",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/components",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/components/common",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/components/public",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/components/public/layout",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/components/public/pages",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/config"
+	],
+	"file_history":
+	[
+		"/var/www/html/hosts/SPA/vue-localize-example/src/components/public/pages/About.vue",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/config/routes.js",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/components/public/layout/Footer.vue",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/index.html",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/config/vue-localize-conf.js",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/components/common/LanguageSelector.vue",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/components/public/layout/Header.vue",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/components/public/pages/Features.vue",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/components/admin/layout/Header.vue",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/components/admin/layout/Aside.vue",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/components/admin/pages/Home.vue",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/components/admin/pages/Help.vue",
+		"/var/www/html/hosts/SPA/vue-localize-example/package.json",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/vuex/modules/root-app.js",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/vuex/mutation-types.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/config/vue-localize-conf.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/account/pages/Help.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/common/LanguageSelector.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/App.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/main.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/vuex/store.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/config/routes.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/public/pages/Features.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/package.json",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/i18-old/vue-localize.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/i18-old/vuex-getters.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/vuex/getters.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/i18/vuex-getters.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/i18/vue-localize.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/config/routes2.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/i18/vuex-store-module.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/account/layout/Layout.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/public/layout/Header.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/config/vue-localize-translations.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/config/components.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/vuex/mutation-types.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/index.html",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/vuex/modules/root-app.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/public/pages/SignIn.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/account/layout/Aside.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/config/auth.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/account/layout/Header.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/core/auth.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/core/api/client.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/vuex/modules/auth.js",
+		"/home/saymon/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/saymon/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/saymon/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/saymon/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/saymon/.config/sublime-text-3/Packages/User/HTML.sublime-settings",
+		"/home/saymon/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+		"/var/www/html/hosts/SPA/vue-app-sample/node_modules/nightwatch/node_modules/mocha-nightwatch/mocha.css",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/account/pages/Profile.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/public/layout/LanguageSelector.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/public/pages/Index.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/public/pages/About.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/account/layout/LanguageSelector.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/i18/vuex/store-module.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/i18/languages.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/config/i18n.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/account/pages/Home.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/i18/translations.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/i18/vuex/mutation-types.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/public/pages/Error404.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/public/layout/Layout.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/.gitignore",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/public/layout/Footer.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/i18/getters.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/i18/mutation-types.js",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/public/pages/Contacts.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/public/layout/About.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/public/Layout.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/mz/layout/Aside.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/mz/layout/Header.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/mz/MzLayout.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/mz/pages/Dashboard.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/public/pages/PasswdRestore.vue",
+		"/var/www/html/hosts/SPA/vue-app-sample/src/components/public/pages/SignUp.vue",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/i18/vue-localize.js",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/i18/translations.js",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/components/mz/layout/Aside.vue",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/components/mz/layout/LanguageSelector.vue",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/vuex/store.js",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/components/App.vue",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/components/mz/layout/Header.vue",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/main.js",
+		"/var/www/html/my-npm/vue-localize/package.json",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/vuex/getters.js",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/components/mz/MzLayout.vue",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/config/languages.js",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/plugins/vue-localize.js",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/index.html",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/config/routes.js",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/vuex/modules/i18n.js",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/components/mz/pages/ProjectList.vue",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/components/mz/layout/Offside.vue",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/translations/mz/layout/aside.js",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/i18/mz/layout/aside.js",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/vuex/mutation-types.js",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/components/mz/pages/Dashboard.vue",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/components/public/PublicLayout",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/vuex/mutations.js",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/components/mz/Main.vue",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/2.html",
+		"/var/www/html/hosts/sandbox/SPA/webpack-master/my-project/src/projects.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/var/www/html/hosts/SPA/vue-localize-example/src",
+			"/var/www/html/hosts/SPA/vue-app-sample/src",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"translateRoutePath",
+			"account",
+			"accou",
+			".list",
+			"@todo",
+			"$localizeConf",
+			"window.localStorage",
+			"$localizeConf",
+			"window.localStorage",
+			"localStorage",
+			"currentLanguage",
+			"SET_APP_LANGUAGE",
+			"currentLanguage",
+			"vueLocalize",
+			"state.vueLocalize",
+			"vuexStoreModuleName",
+			"defaultLanguageRoute",
+			"VueLocalize",
+			"nameIncrement",
+			"currentLanguage",
+			"_processVariables",
+			"translateRoutePath",
+			"ctrl+e",
+			"ctrl+shift+k",
+			"ctrl+shift+l",
+			"ctrl+l",
+			"ctrl+u",
+			"ctrl",
+			"command",
+			"getbootstrap",
+			"com",
+			"examples",
+			"spaces",
+			"localizeRoute",
+			"routesRegistry",
+			"routesLocalized",
+			"localizeRouteName",
+			"currTitle",
+			"langCurrent",
+			"Lang",
+			"_currentLanguage",
+			"localizeConf",
+			"currentLanguage",
+			"langCurrent",
+			"languageCurrent",
+			"key",
+			"*\n",
+			"i18key",
+			"supressWarnings",
+			".default",
+			"supressWarnings",
+			"fallbackOnNoTranslation",
+			"fallbackLanguage",
+			"defaultContextName",
+			"vuexStoreModuleName",
+			"translations",
+			"languages.",
+			"translations",
+			"vue-localize-translations",
+			"translations",
+			"langConfig",
+			"/languages'",
+			"i18n.js",
+			"languagesList",
+			"languages.",
+			"languages",
+			"i18Config",
+			"resaveOnLocalizedRoutes",
+			"    \n",
+			"en_",
+			"vueLocalize",
+			"SET_APP_LANGUAGE",
+			"languageCurrent",
+			"SET_APP_LANGUAGE",
+			"CHANGE_LANGUAGE",
+			"account-home",
+			"      '/about': {\n        name: 'about',\n        titleKey: 'public.about.title',\n        component: About\n      },",
+			"export",
+			"p>\n    <h4>Directive notation</h4>\n    <code>\n    {{ notations.directive }}\n    </code>\n    <h4>Result</h4>\n    <pre>\n    <span v-localize=\"{path: 'account.help.variablesInjectionTest', vars: vars, lang: 'en'}\"></span>\n    <span v-localize=\"{path: 'account.help.variablesInjectionTest', vars: vars, lang: 'ru'}\"></span></pre><br /><br />\n  </p",
+			"}\"></",
+			"fallbackLanguage: {\n            status: 'done'\n          },",
+			"'ru'",
+			"'en'",
+			"<tr>\n            <td>Присутствие языкового параметра в начале URI роута для индексации поисковиками публичной части веб-проекта</td>\n            <td class=\"text-center\"></td>\n          </tr>",
+			">\n",
+			" class=\"col-sm-12\">\n      EN\n    </di",
+			"jdesc: {\n        'en': 'This is an index page of the VueJS SPA boilerplate',\n        'ru': 'Это главная страница скелета одностраничного приложения на Vue.js'\n      },",
+			"  <",
+			"VUEX_MODUE_NAME",
+			"vueLocalize",
+			"i18",
+			"@todo",
+			"        \n",
+			"stylesheet",
+			")\n",
+			"    \n",
+			"__phrase",
+			"')\n",
+			"()\n",
+			"      \n",
+			"parent",
+			"localStorageGet",
+			"http",
+			"Vue",
+			"'\n",
+			"getData",
+			".$",
+			"      \n",
+			"this",
+			"CompAside",
+			">\n",
+			"      \n",
+			"')\n",
+			"  \n",
+			"localSrorageSet (key, value) {\n\n    }",
+			"    	\n",
+			"  \n",
+			"collapsed",
+			"\n	",
+			"'\n",
+			")\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"SET_APP_LANGUAGE"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								325,
+								325
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/components/public/pages/Index.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 768,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								534,
+								534
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/public/layout/Header.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								311,
+								311
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/components/public/pages/Features.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5900,
+								5900
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2808.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/components/public/layout/Layout.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/components/common/LanguageSelector.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1230,
+								1230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 593,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										400,
+										418
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								539,
+								539
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ 	].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/config/vue-localize-conf.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1988,
+								1988
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/config/routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								881,
+								881
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "src/config/vue-localize-translations.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12095,
+								12095
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 27.0,
+						"translation.y": 7046.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"translations",
+				"src/config/vue-localize-translations.js"
+			],
+			[
+				"vue-local",
+				"src/config/vue-localize-conf.js"
+			],
+			[
+				"root-ap",
+				"src/vuex/modules/root-app.js"
+			],
+			[
+				".css",
+				"node_modules/nightwatch/node_modules/mocha-nightwatch/mocha.css"
+			],
+			[
+				".vue",
+				"src/components/App.vue"
+			],
+			[
+				"aside",
+				"src/components/account/layout/Aside.vue"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 235.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
