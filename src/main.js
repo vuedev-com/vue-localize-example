@@ -24,14 +24,12 @@ Vue.use(VueLocalize, { //                                       Registering vue-
   routes: routes
 })
 
-router.beforeEach(function (transition) {
-  if (transition.to.titleKey) { //                              Changing title on transition to new route
-    store.dispatch('SET_TITLE', transition.to.titleKey)
-  } else if (transition.to.titleKey === undefined) {
-    store.dispatch('SET_TITLE', 'global.defaultTitle')
-  }
-
-  transition.next()
+import vueTitsConf from './config/vue-tits-conf' //             Import vue-title-switcher config
+import vueTitleSwitcher from 'vue-title-switcher'
+Vue.use(vueTitleSwitcher, {
+  store,
+  router,
+  config: vueTitsConf
 })
 
 if (vueLocalizeConf.defaultLanguageRoute) { //                  404 handler. Looks forward to implementation of https://github.com/vuejs/vue-router/issues/382

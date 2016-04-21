@@ -219,6 +219,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/vuex/modules/root-app.js",
+			"settings":
+			{
+				"buffer_size": 252,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -260,10 +268,17 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/hosts/SPA/vue-localize-example"
+		"/var/www/html/hosts/SPA/vue-localize-example",
+		"/var/www/html/hosts/SPA/vue-localize-example/build",
+		"/var/www/html/hosts/SPA/vue-localize-example/src",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/config",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/vuex",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/vuex/modules"
 	],
 	"file_history":
 	[
+		"/var/www/html/hosts/SPA/vue-localize-example/src/main.js",
+		"/var/www/html/hosts/SPA/vue-localize-example/src/config/vue-localize-translations.js",
 		"/var/www/html/hosts/SPA/vue-localize-example/.gitignore",
 		"/var/www/html/hosts/SPA/vue-localize-example/src/config/routes.js",
 		"/var/www/html/hosts/SPA/vue-localize-example/src/index.html",
@@ -273,7 +288,6 @@
 		"/var/www/html/hosts/SPA/vue-localize-example/src/components/common/LanguageSelector.vue",
 		"/var/www/html/hosts/SPA/vue-localize-example/src/components/admin/pages/Home.vue",
 		"/var/www/html/hosts/SPA/vue-localize-example/src/components/admin/pages/Settings.vue",
-		"/var/www/html/hosts/SPA/vue-localize-example/src/config/vue-localize-translations.js",
 		"/var/www/html/hosts/SPA/vue-localize-example/package.json",
 		"/var/www/html/hosts/SPA/vue-localize-example/build/webpack.base.conf.js",
 		"/var/www/html/hosts/SPA/vue-localize-example/src/components/admin/layout/Header.vue",
@@ -281,7 +295,6 @@
 		"/var/www/html/hosts/SPA/vue-localize-example/src/components/public/pages/Index.vue",
 		"/var/www/html/hosts/SPA/vue-localize-example/src/components/public/pages/About.vue",
 		"/var/www/html/hosts/SPA/vue-localize-example/src/components/public/layout/Header.vue",
-		"/var/www/html/hosts/SPA/vue-localize-example/src/main.js",
 		"/var/www/html/hosts/SPA/vue-localize-example/src/components/public/layout/Layout.vue",
 		"/var/www/html/hosts/SPA/vue-localize-example/src/components/public/layout/Footer.vue",
 		"/var/www/html/hosts/SPA/vue-localize-example/src/components/admin/pages/Help.vue",
@@ -539,8 +552,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/vuex/modules/root-app.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
