@@ -16,7 +16,6 @@ import routes from './config/routes' //                         Import router co
 import vueLocalizeConf from './config/vue-localize-conf' //     Import config for vue-localize plugin
 import store from './vuex/store' //                             Import vuex store (required by vue-localize)
 import VueLocalize from 'vue-localize' //                       Import vue-localize plugin
-
 Vue.use(VueLocalize, { //                                       Registering vue-localize plugin
   store,
   config: vueLocalizeConf,
@@ -25,10 +24,10 @@ Vue.use(VueLocalize, { //                                       Registering vue-
 })
 
 import vueTitsConf from './config/vue-tits-conf' //             Import vue-title-switcher config
-import vueTitleSwitcher from 'vue-title-switcher'
-Vue.use(vueTitleSwitcher, {
-  store,
-  router,
+import vueTitleSwitcher from 'vue-title-switcher' //            Import vue-title-switcher plugin
+Vue.use(vueTitleSwitcher, { //                                  Registering vue-title-switcher plugin
+  store: store,
+  router: router,
   config: vueTitsConf
 })
 
