@@ -1,7 +1,5 @@
 import Vue from 'vue'
 
-Vue.config.debug = true
-
 import VueRouter from 'vue-router' //                           Import and install vue-router
 Vue.use(VueRouter)
 
@@ -21,14 +19,6 @@ Vue.use(VueLocalize, { //                                       Registering vue-
   config: vueLocalizeConf,
   router: router,
   routes: routes
-})
-
-import vueTitsConf from './config/vue-tits-conf' //             Import vue-title-switcher config
-import vueTitleSwitcher from 'vue-title-switcher' //            Import vue-title-switcher plugin
-Vue.use(vueTitleSwitcher, { //                                  Registering vue-title-switcher plugin
-  store: store,
-  router: router,
-  config: vueTitsConf
 })
 
 if (vueLocalizeConf.defaultLanguageRoute) { //                  404 handler. Looks forward to implementation of https://github.com/vuejs/vue-router/issues/382
