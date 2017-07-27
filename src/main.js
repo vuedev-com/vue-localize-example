@@ -1,19 +1,23 @@
 import Vue from 'vue'
 
-import VueRouter from 'vue-router' //                           Import and install vue-router
-Vue.use(VueRouter)
+import Router from 'vue-router'                               // Import and install vue-router
+import routes from './config/routes.js'                                   // Import router config obejct
+import vueLocalizeConf from './config/vue-localize-conf'        // Import config for vue-localize plugin
+import store from './vuex/store'                                // Import vuex store (required by vue-localize)
+import VueLocalize from 'vue-localize'                          // Import vue-localize plugin
 
-export var router = new VueRouter({ //                          Create vue-router instance
-  linkActiveClass: 'active',
-  history: true,
-  saveScrollPosition: true,
-  root: '/vue-localize-example/dist'
+import App from './App'                                         // Import App component - root Vue instance
+
+Vue.use(Router)
+
+export var router = new Router({
+  routes: [],
+  mode: 'history',
+  scrollBehavior (to, from, savedPosition) {
+    return savedPosition || { x: 0, y: 0 }
+  }
 })
 
-import routes from './router' //                         Import router config obejct
-import vueLocalizeConf from './config/vue-localize-conf' //     Import config for vue-localize plugin
-import store from './vuex/store' //                             Import vuex store (required by vue-localize)
-import VueLocalize from 'vue-localize' //                       Import vue-localize plugin
 Vue.use(VueLocalize, { //                                       Registering vue-localize plugin
   store,
   config: vueLocalizeConf,
@@ -21,17 +25,21 @@ Vue.use(VueLocalize, { //                                       Registering vue-
   routes: routes
 })
 
-if (vueLocalizeConf.defaultLanguageRoute) { //                  404 handler. Looks forward to implementation of https://github.com/vuejs/vue-router/issues/382
-  router.redirect({
-    '*': '/' + vueLocalizeConf.defaultLanguage + '/error404',
-    '/': '/' + vueLocalizeConf.defaultLanguage
-  })
-} else {
-  router.redirect({
-    '*': '/error404'
-  })
-}
+// if (vueLocalizeConf.defaultLanguageRoute) { //                  404 handler. Looks forward to implementation of https://github.com/vuejs/vue-router/issues/382
+//   router.redirect({
+//     '*': '/' + vueLocalizeConf.defaultLanguage + '/error404',
+//     '/': '/' + vueLocalizeConf.defaultLanguage
+//   })
+// } else {
+//   router.redirect({
+//     '*': '/error404'
+//   })
+// }
 
-import App from './components/App' //                           Import App component - root Vue instance
-
-router.start(App, '#app') //                                    Application start
+new Vue({
+  el: '#app',
+  template: '<App/>',
+  components: { App },
+  router: router,
+  store: store
+})
