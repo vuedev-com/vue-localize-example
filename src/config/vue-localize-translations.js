@@ -261,10 +261,10 @@ export default {
       en: 'Translations file structure',
       ru: 'Структура хранения переводов'
     },
-    // 'confFile': {
-    //   en: '',
-    //   ru: 'Опции и формат конфига'
-    // },
+    'confFile': {
+      en: '',
+      ru: 'Опции и формат конфига'
+    },
     'ph1': {
       en: 'This example implements the skeleton application with public and admistrative sections',
       ru: 'Данный пример реализует скелет приложения с публичной и административной секциями.'

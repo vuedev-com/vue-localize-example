@@ -26,12 +26,12 @@ const routes = [
       },
       {
         name: 'features',
-        path: '/features',
+        path: 'features',
         component: Features
       },
       {
         name: 'error404',
-        path: '/error404',
+        path: 'error404',
         component: Error404
       }
     ]

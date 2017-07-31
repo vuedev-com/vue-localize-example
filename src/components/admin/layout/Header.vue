@@ -8,12 +8,12 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <router-link :to="{name: $localizeRoute('public-index')}">{{ 'projectName' | translate }}</router-link>
+        <router-link class="navbar-brand" :to="{name: $localizeRoute('public-index')}">{{ 'projectName' | translate }}</router-link>
       </div>
       <div id="navbar" class="navbar-collapse collapse" :class="{'in': mobileMenuCollapsed}">
         <ul class="nav navbar-nav navbar-right">
-          <router-link tag="li" :to="{name: $localizeRoute('admin-home')}"><a>{{ 'admin.nav.home' | translate }}</a></router-link>
-          <router-link tag="li" :to="{name: $localizeRoute('admin-settings')}"><a>{{ 'admin.nav.settings' | translate }}</a></router-link>
+          <router-link tag="li" active-class="active" :to="{name: $localizeRoute('admin-home')}"><a>{{ 'admin.nav.home' | translate }}</a></router-link>
+          <router-link tag="li" active-class="active" :to="{name: $localizeRoute('admin-settings')}"><a>{{ 'admin.nav.settings' | translate }}</a></router-link>
           <language-selector></language-selector>
         </ul>
       </div>

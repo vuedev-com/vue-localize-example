@@ -1,11 +1,11 @@
 <template>
   <li class="dropdown" :class="{'open': opened}">
-    <a href="javascript:;" @click="toggle">{{ currentLanguage }} <span class="caret"></span></a>
+    <a href="javascript:;" @click="toggle">{{ currentLanguage.toUpperCase() }} <span class="caret"></span></a>
     <ul class="dropdown-menu">
-      <li v-for="(code, config) in $localizeConf.languages" v-if="code !== currentLanguage && config.enabled !== false">
+      <li v-for="(config, code) in $localizeConf.languages" v-if="code !== currentLanguage && config.enabled !== false">
           <a v-bind:href="$localizeRoutePath($route, code)" @click.prevent="changeLanguage(code)">
-            <!-- {{ code }} | {{ 'global.lang.' + config.key | translate(null, currentLanguage) }}<br /> -->
-            <!-- <small class="text-muted">{{ 'global.lang.' + config.key | translate(null, currentLanguage) }}</small> -->
+            {{ code.toUpperCase() }} | {{ `global.lang.${config.key}` | translate(null, code) }}<br />
+            <small class="text-muted">{{ `global.lang.${config.key}` | translate(null, currentLanguage) }}</small>
           </a>
       </li>
     </ul>
@@ -21,9 +21,9 @@ export default {
     }
   },
   computed: {
-    ...mapState([
-      'currentLanguage'
-    ])
+    ...mapState({
+      currentLanguage: state => state.vueLocalize.currentLanguage
+    })
   },
   methods: {
     toggle: function () {
